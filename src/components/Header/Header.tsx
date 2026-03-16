@@ -29,14 +29,24 @@ export default function Header() {
                 <Link href="#contact" className={styles.navLink}>오시는 길</Link>
             </nav>
 
-            <a
-                href="https://www.daangn.com/kr/local-profile/%EC%98%A4%EC%9D%80%EC%98%81%EC%97%90%EC%8A%A4%ED%85%8C%ED%8B%B1-ysjnhw2p3iwo/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.ctaButton}
-            >
-                예약하기
-            </a>
+            <div className={styles.buttonGroup}>
+                <a
+                    href="https://m.place.naver.com/place/1905795609/home?entry=pll"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.ctaButton}
+                >
+                    네이버 예약
+                </a>
+                <a
+                    href="https://www.daangn.com/kr/local-profile/%EC%98%A4%EC%9D%80%EC%98%81%EC%97%90%EC%8A%A4%ED%85%8C%ED%8B%B1-ysjnhw2p3iwo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${styles.ctaButton} ${styles.daangnButton}`}
+                >
+                    당근 예약
+                </a>
+            </div>
         </header>
     );
 }

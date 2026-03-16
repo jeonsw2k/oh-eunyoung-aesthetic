@@ -54,13 +54,27 @@
     width: 100%;
 }
 
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+}
+
 .ctaButton {
-    padding: 10px 24px;
+    padding: 10px 20px;
     background-color: var(--color-accent);
     color: white;
     border-radius: 4px;
+    font-size: 0.95rem;
     font-weight: 600;
     transition: background-color 0.3s ease;
+}
+
+.daangnButton {
+    background-color: #FF8A3D; /* 당근마켓 상징색 */
+}
+
+.daangnButton:hover {
+    background-color: #E67E22;
 }
 
 .ctaButton:hover {
