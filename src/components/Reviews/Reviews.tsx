@@ -73,8 +73,8 @@ export default function Reviews() {
         <section id="reviews" className={`${styles.reviews} section-padding`}>
             <div className="container">
                 <div className={styles.header}>
-                    <h2 className={styles.title}>Naver Reviews</h2>
-                    <p className={styles.subtitle}>네이버 방문자 리뷰로 증명하는 오은영에스테틱의 변화</p>
+                    <h2 className={styles.title}>Reviews</h2>
+                    <p className={styles.subtitle}>☆네이버☆ ☆당근☆ 방문자 리뷰로 증명하는 오은영에스테틱의 변화</p>
                 </div>
 
                 <div className={styles.grid}>
