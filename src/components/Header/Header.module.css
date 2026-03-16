@@ -69,6 +69,14 @@
     transition: background-color 0.3s ease;
 }
 
+.naverButton {
+    background-color: #03C75A; /* 네이버 상징색 */
+}
+
+.naverButton:hover {
+    background-color: #02b351;
+}
+
 .daangnButton {
     background-color: #FF8A3D; /* 당근마켓 상징색 */
 }

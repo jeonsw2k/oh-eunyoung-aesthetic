@@ -34,7 +34,7 @@ export default function Header() {
                     href="https://m.place.naver.com/place/1905795609/home?entry=pll"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={styles.ctaButton}
+                    className={`${styles.ctaButton} ${styles.naverButton}`}
                 >
                     네이버 예약
                 </a>

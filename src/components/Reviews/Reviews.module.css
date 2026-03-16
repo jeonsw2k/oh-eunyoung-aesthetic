@@ -60,6 +60,27 @@
     font-size: 1.2rem;
 }
 
+.reviewHeader {
+    margin-bottom: 10px;
+}
+
+.platformBadge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: white;
+}
+
+.naverBadge {
+    background-color: #03C75A;
+}
+
+.daangnBadge {
+    background-color: #FF8A3D;
+}
+
 .text {
     font-size: 0.95rem;
     line-height: 1.6;
