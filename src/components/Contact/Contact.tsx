@@ -20,7 +20,7 @@ export default function Contact() {
                     <div className={styles.infoCard}>
                         <span className={styles.label}>Address</span>
                         <p className={styles.text}>
-                            경기도 김포시 김포한강8로148번길 109 (마산동) 하이빌리지 1층상가 101호
+                            경기도 김포시 김포한강8로148번길 109 (마산동) 하이빌리지 1층상가 101호<br />
                             오은영에스테틱
                         </p>
                     </div>
@@ -35,7 +35,7 @@ export default function Contact() {
                     <div className={styles.infoCard}>
                         <span className={styles.label}>Reservation</span>
                         <p className={styles.text}>
-                            010-1234-5678<br />
+                            010-7663-2645<br />
                             Kakao: @오은영에스테틱
                         </p>
                     </div>
